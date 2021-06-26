@@ -1,0 +1,2 @@
+Glitch:
+Collision detection can be improved.
