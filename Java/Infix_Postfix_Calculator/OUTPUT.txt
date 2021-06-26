@@ -1,0 +1,22 @@
+*CSC172 Project 1: Shunting Yard Algorithm*
+
+Contact 
+-----------------------------------------
+Uzair Tahamid Siam
+email: usiam@u.rochester.edu
+URID: 31434546 / NETID: usiam
+Lab session - M/W 6:15 - 7:30
+-----------------------------------------
+
+The snippet below shows the compile and run steps of the project code. The `javac` 
+compiler performs the compilation step, and `java` runs the file containing the main method, with 'infix_expr_short.txt'
+and 'my_answer.txt' being the input and output files for the calculator program respectively. Finally, the 'fc.exe' utility compares the content of
+'my_answer.txt` (my output) and `postfix_eval_short.txt` (expected output)
+and reports that no differences were found in the two files.
+
+-----------------------------------------
+
+PS F:\CS\CSC172\Projects\Project_1> javac -d bin -classpath src -sourcepath src src/*.java                                                                                                                                                  PS F:\CS\CSC172\Projects\Project_1> java -classpath src infixCalc .\infix_expr_short.txt .\my_answer.txt                                                                                                                           F:\CS\CSC172\Projects\Project_1> fc.exe .\my_answer.txt .\postfix_eval_short_answer.txt                                                                                                                                              Comparing files .\my_answer.txt and .\postfix_eval_short.txt
+FC: no differences encountered
+
+
